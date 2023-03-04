@@ -1,0 +1,216 @@
+:root {
+    --black: rgba(43, 45, 66, 1.0);
+    --oled: rgba(0, 0, 0, 1.0);
+    --white: rgba(255, 255, 255, 1.0);
+    --red: rgba(230, 66, 73, 1.0);
+    --red2: rgba(207, 48, 57, 1.0);
+    --green: rgb(52, 182, 0);
+    }
+  
+* {
+    /* box-sizing: border-box;
+    padding: 0;
+    margin: 0; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+body {
+    /* font: 16px / 24px "Rubik", sans-serif; */
+    color: var(--black);
+    background: var(--white);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 18px;
+    
+  }
+
+  /* h2 {
+    font-size: 32px;
+    margin-bottom: 1em;
+  }
+
+a:link {
+  text-decoration: none;
+  color: --red;
+}
+
+a:visited {
+  text-decoration: none;
+  color: --red2;
+} */
+
+  
+.container {
+    max-width: 1400px;
+    width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+ 
+  .container,
+  .formInput,
+  .formButton {
+    font: 500 1rem 'Quicksand', sans-serif;
+  }
+
+
+  .form-Hidden {
+    display: none;
+  }
+  .form > *:first-child {
+    margin-top: 10;
+  }
+
+  .form > *:last-child {
+    margin-bottom: 10;
+  }
+
+  .formTitle {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .formMSG {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .formMSG-success {
+    color: var(--green);  
+  } 
+
+  .formMSG-err {
+    color: var(--red);  
+  } 
+
+  .formInput-group {
+    margin-bottom: 1rem;
+  }
+
+  .formInput {
+    display: block;
+    width: 100%;
+    padding: 0.75 rem;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.5s, border-color 0.5s;
+  }
+
+  .formInput:focus {
+    border-color: var(--oled);
+    background: var(--white);
+  }
+
+  .formInput-err {
+    color: var(--red);
+    border-color: var(--red2);
+  }
+
+  .formInput-err-MSG {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--red)
+  }
+
+  .formButton {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--white);
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+    background: var(--red);
+  }
+
+  .formButton:hover {
+    background: var(--red2);
+  }
+
+  .formButton:active {
+    transform: scale(0.98);
+  }
+
+  .formText {
+    text-align: center;
+  }
+  .formLink {
+    color: var(--red);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .formLink:hover {
+    text-decoration: underline;
+  }
+
+
+  
+
+  /* @media (min-width: 500px) {
+    .card {
+      flex-basis: calc(50% - 10px);
+    }
+  
+    .card:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .card {
+      flex-basis: calc(calc(100% / 3) - 20px);
+    }
+  
+    .card:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  
+  @media (min-width: 1100px) {
+    .card {
+      flex-basis: calc(25% - 30px);
+    }
+  
+    .card:not(:last-child) {
+      margin-right: 40px;
+    }
+  
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: var(--oled);
+      color: var(--white);
+    }
+  
+    .card {
+      background: var(--oled);
+    }
+  
+    .card:hover {
+      background: var(--red2);
+    }
+  
+    .card:hover .card-link {
+      background: var(--black);
+    }
+    .active-ss {
+      color: var(--white);
+    }
+    .card {
+      box-shadow: 0 5px 15px var(--red2);
+    }
+  
+  }
+   */
