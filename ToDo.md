@@ -1,13 +1,18 @@
 Todo.md
 ======
-+ add navbar
+High Priority
++ add navbar class
 + add rating button next to play/add button
 + add slideover settings/account page
 + create music player view
-+ database / js function
++ sign in page
+    + implement db
+
+Lower Priority
 + add different view size settings for mobile site
     + current is large (add, XS, S, M)
     + accessible either through top navbar or profile view?
+
 
 Bugs
 ------
