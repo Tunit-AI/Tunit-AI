@@ -18,7 +18,7 @@ function Navbar(props, showPic = true) {
                     <img alt='' className='resize' src={add} />
                 </NavLink>
                 <NavLink to="/profile">
-                    <img alt='' className='circle resize' src={placeholder} />
+                    <img alt='' className='resize' src={placeholder} />
                 </NavLink>
             </nav>
         </HStack>
