@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Tunit-AI/static/css/main.3b2c70b2.css",
+    "main.js": "/Tunit-AI/static/js/main.da95df1e.js",
+    "static/js/787.0131d8fe.chunk.js": "/Tunit-AI/static/js/787.0131d8fe.chunk.js",
+    "static/media/plus.app.svg": "/Tunit-AI/static/media/plus.app.293dc3ba2a006af11a1c113636680944.svg",
+    "index.html": "/Tunit-AI/index.html",
+    "main.3b2c70b2.css.map": "/Tunit-AI/static/css/main.3b2c70b2.css.map",
+    "main.da95df1e.js.map": "/Tunit-AI/static/js/main.da95df1e.js.map",
+    "787.0131d8fe.chunk.js.map": "/Tunit-AI/static/js/787.0131d8fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b2c70b2.css",
+    "static/js/main.da95df1e.js"
+  ]
+}
