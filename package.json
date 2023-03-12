@@ -1,7 +1,7 @@
 {
   "name": "tunit",
   "version": "0.1.0-beta.1",
-  "homepage": "https://tunit-ai.github.io/Tunit-AI/",
+  "homepage": "https://tunit.cloud",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.5.1",
