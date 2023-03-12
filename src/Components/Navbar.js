@@ -1,6 +1,6 @@
 import '../css/Navbar.css';
 import React, {Component} from 'react';
-import placeholder from '.././images/placeholder.jpg'
+import placeholder from '.././images/person.crop.circle.svg'
 import add from '.././images/plus.app.svg'
 import { Stack, HStack } from '@chakra-ui/react'
 import { NavLink } from 'react-router-dom';
