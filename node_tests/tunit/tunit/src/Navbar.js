@@ -10,7 +10,7 @@ function Navbar() {
             <h1>
                 Today's Recommendations
             </h1>
-            <a href="./profile.js">
+            <a href="./Profile.js">
                 <img className='circle resize' src={placeholder} />
             </a>
         </HStack>
