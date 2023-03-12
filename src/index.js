@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename='https://tunit-ai.github.io/Tunit-AI'>
+    <BrowserRouter basename='https://tunit-ai.github.io/Tunit-AI/'>
       <App />
     </BrowserRouter>
   </React.StrictMode>
