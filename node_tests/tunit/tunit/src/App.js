@@ -1,6 +1,11 @@
 // import logo from './logo.svg';
-import './Navbar.css';
-import Navbar from './Navbar.js';
+// import './Navbar.css';
+// import Navbar from './Navbar';
+import { Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
+import Profile from './Pages/Profile';
+import Login from './Pages/Login';
+import AddSong from './Pages/AddSong';
 
 // function App() {
 //   return (
@@ -25,11 +30,19 @@ import Navbar from './Navbar.js';
 
 // export default App;
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/addSong" element={<AddSong />} />
+
+
+      </Routes>
+    
+    </>
   );
 }
 

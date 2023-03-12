@@ -5,12 +5,15 @@ import { Stack, HStack, VStack } from '@chakra-ui/react';
 
 function MusicView() {
     return (
-        <HStack>
-            <VStack>
-                {/* for loop with each recommendation */}
-                {/* print out album -> artist -> song title */}
-            </VStack>
-        </HStack>
+        <>
+            <HStack>
+                <VStack>
+                    {/* for loop with each recommendation */}
+                    {/* print out album -> artist -> song title */}
+                </VStack>
+            </HStack> 
+       </>
+
     )
 }
 
