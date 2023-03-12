@@ -18,3 +18,8 @@ Bugs
 ------
 + Right-most <li> item is slightly cut off
 + on mobile, h1 needs padding between its own lines
+
+Resources
+-----
+https://developer.spotify.com/documentation/general/guides/authorization/
+https://developer.apple.com/documentation/applemusicapi/generating_developer_tokens
