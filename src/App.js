@@ -6,6 +6,7 @@ import Home from './Pages/Home';
 import Profile from './Pages/Profile';
 import Login from './Pages/Login';
 import AddSong from './Pages/AddSong';
+import Welcome from './Pages/Welcome'
 
 // function App() {
 //   return (
@@ -38,6 +39,7 @@ const App = () => {
         <Route path="/profile" element={<Profile />} />
         <Route path="/login" element={<Login />} />
         <Route path="/addSong" element={<AddSong />} />
+        <Route path="/welcome" element={<Welcome />} />
 
 
       </Routes>
